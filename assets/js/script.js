@@ -5,7 +5,9 @@ var apiUrlCity = 'https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon=
     fetch(apiUrlCity).then(function(response) {
         if (response.ok) {
             response.json().then(function(data) {
-
+                return response.json().then(function(data) {
+                    
+                })
             })
         }
     })

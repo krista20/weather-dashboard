@@ -8,6 +8,12 @@
     border-radius: 0;
   }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
   .btn-secondary {
       color: black;
      
@@ -15,4 +21,13 @@
 
   .line-break {
       border-bottom: 2px solid gray;
+  }
+
+  #city {
+      border: 1px solid black
+  }
+
+  #forecast {
+    border: 1px solid black;
+      text-align: left;
   }
