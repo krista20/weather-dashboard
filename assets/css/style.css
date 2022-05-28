@@ -1,0 +1,18 @@
+#header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    background: linear-gradient(to left, #2b0d51, #000d9f);
+    color: white;
+    border-radius: 0;
+  }
+
+  .btn-secondary {
+      color: black;
+     
+  }
+
+  .line-break {
+      border-bottom: 2px solid gray;
+  }
