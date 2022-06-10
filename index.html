@@ -29,23 +29,23 @@
     <!-- Search for city column -->
     <div id="search-form" class="col-12 col-lg-3 d-flex flex-column p4 p-lg-3 ">
         <h2>Search for a City:</h2>
-        <form class="form-container">
+        <div class="form-container">
             <div class="form-group">
-                <input type="text" class="form-control" id="search-city" aria-describedby="" placeholder="Search City">
+                <input type="text" class="form-control" id="search-city" aria-describedby="" placeholder="Search City" value="">
             </div>
-           <button type="search" class="btn btn-block btn-primary">Search</button>
+           <button id="get-weather" type="search" class="btn btn-block btn-primary">Search</button>
            <br>
            <div class="line-break"></div>
            <br>
            <button type="button" class="btn btn-block btn-secondary">Austin</button>
            <button type="button" class="btn btn-block btn-secondary">Chicago</button> 
            <button type="button" class="btn btn-block btn-secondary">New York</button> 
-           <button type="button" class="btn btn-block btn-secondary">Oralndo</button> 
+           <button type="button" class="btn btn-block btn-secondary">Orlando</button> 
            <button type="button" class="btn btn-block btn-secondary">San Francisco</button> 
            <button type="button" class="btn btn-block btn-secondary">Seattle</button> 
            <button type="button" class="btn btn-block btn-secondary">Denver</button> 
            <button type="button" class="btn btn-block btn-secondary">Atlanta</button>  
-      </form>
+          </div>
     </div>
 
 
@@ -66,7 +66,61 @@
     <!-- City forecast row -->
     <div id="forecast" class="m-3">
         <h4>5-Day Forecast:</h4>
-        <div>
+        <div id="forecast-cards" class="card row card-deck display: inline-block">
+            <!-- Card 1-->
+            <div class="card-body col-sm-2">
+              <h5 class="card-date">Card title</h5>
+              <img class="card-icon mb-2">
+              <ul class="">
+                <li class="">Cras justo odio</li>
+                <li class="">Dapibus ac facilisis in</li>
+                <li class="">Vestibulum at eros</li>
+              </ul>
+            </div>
+
+             <!-- Card 2-->
+             <div class="card-body col-sm-2">
+                <h5 class="card-date">Card title</h5>
+                <img class="card-icon mb-2">
+                <ul class="">
+                  <li class="">Cras justo odio</li>
+                  <li class="">Dapibus ac facilisis in</li>
+                  <li class="">Vestibulum at eros</li>
+                </ul>
+              </div>
+
+               <!-- Card 3-->
+             <div class="card-body col-sm-2">
+                <h5 class="card-date">Card title</h5>
+                <img class="card-icon mb-2">
+                <ul class="">
+                  <li class="">Cras justo odio</li>
+                  <li class="">Dapibus ac facilisis in</li>
+                  <li class="">Vestibulum at eros</li>
+                </ul>
+              </div>
+
+               <!-- Card 4-->
+             <div class="card-body col-sm-2">
+                <h5 class="card-date">Card title</h5>
+                <img class="card-icon mb-2">
+                <ul class="">
+                  <li class="">Cras justo odio</li>
+                  <li class="">Dapibus ac facilisis in</li>
+                  <li class="">Vestibulum at eros</li>
+                </ul>
+              </div>
+
+               <!-- Card 5-->
+             <div class="card-body col-sm-2">
+                <h5 class="card-date">Card title</h5>
+                <img class="card-icon mb-2">
+                <ul class="">
+                  <li class="">Cras justo odio</li>
+                  <li class="">Dapibus ac facilisis in</li>
+                  <li class="">Vestibulum at eros</li>
+                </ul>
+              </div>
 
         </div>
         </div>

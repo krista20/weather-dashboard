@@ -30,4 +30,10 @@
   #forecast {
     border: 1px solid black;
       text-align: left;
+      margin: 5px;
+  }
+
+  .card-body {
+      background-color: rgb(38, 45, 68);
+      color: white;
   }
