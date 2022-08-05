@@ -62,3 +62,4 @@ searchBtn.addEventListener("click", function(){
 })
 
 // getData("Austin");
+
