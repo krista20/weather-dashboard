@@ -9,6 +9,7 @@ var tempInfo = document.getElementById("info-temp");
 var windInfo = document.getElementById("info-wind");
 var humidityInfo = document.getElementById("info-humidity");
 var uvindexInfo = document.getElementById("info-uvindex");
+// var weatherContent = document.querySelector("#")
 
 
 let key = "8c12b3ad070f07451d051e392d62dab6";
